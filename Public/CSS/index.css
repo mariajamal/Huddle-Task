@@ -1,20 +1,60 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: sans-serif !important;
+}
+.header{
+    padding: 72px 45px;
 }
 .main{
     background-image: url(../Media/bg-hero-desktop.svg);
+    background-color: #EBFBFE;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 970px;
 }
-.display{
+.pg1{
     display: grid;
-    grid-template-columns: 40% 60%;
-
+    grid-template-columns: 50% 50%;
+    padding: 20px;
 }
-.btn{
+.pg2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px;
+  }
+.text1 h1{
+    font-size: 55px;
+    font-weight: 800;
+}
+.text1 p{
+    font-size: 25px;
+}
+.text1{
+    padding: 100px;
+}
+.width{
+    margin: 30px 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    width: 90%;
+}
+.btn1{
     float: right;
     border-radius: 63rem !important;
-    box-shadow: 2px;
+    background-color: white !important;
+    padding: 11px 70px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.btn2{
+    border-radius: 63rem !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:hsl(322, 100%, 66%) !important;
+    color: #EBFBFE !important;
+    padding: 10px 70px !important;
+
+}
+.img1{
+    height: 635px;
 }
