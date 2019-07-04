@@ -49,6 +49,9 @@ body{
     border-radius: 15px;
     width: 90%;
 }
+.btn{
+    font-weight: bold !important;
+}
 .btn1{
     float: right;
     border-radius: 63rem !important;
@@ -70,4 +73,11 @@ body{
 }
 .img2{
     width:670px;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 30% 30% 30% 30%;
+    background-color: #002931;
+    color: white;
+    height: 575px;
 }
